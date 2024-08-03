@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-const GoogleMapsCard = () => (
-    <Card variant="outlined" sx={{ marginBottom: 2 }}>
+const GoogleMapsCard = ({onClick}) => (
+    <Card variant="outlined" sx={{ marginBottom: 2 }} onClick={onClick}>
       <CardContent 
          sx={{
          transition: 'all 0.3s ease',

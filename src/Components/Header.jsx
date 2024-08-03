@@ -1,4 +1,5 @@
 import icon from "../assets/icon.png"
+
 export const Header = () => {
     return (
         <div className="flex justify-between items-center bg-white p-4 border-b-2 border-blue-600">
@@ -7,7 +8,7 @@ export const Header = () => {
                 <span className="text-black">prod</span>
                 <span className="text-blue-600">loop</span>
             </div>
-            <div className="flex space-x-4 text-black p-2 rounded-lg">
+            <div className="flex text-black font-semibold text-lg">
                 <div className="px-3 py-1 hover:text-blue-700 rounded cursor-pointer">
                     Dashboard
                 </div>
@@ -18,8 +19,8 @@ export const Header = () => {
                     Alerts
                 </div>
             </div>
-            <div>
-
+            <div className="w-12 h-12 rounded-full bg-white border-2 border-blue-600 ">
+                 
             </div>
         </div>
     )
